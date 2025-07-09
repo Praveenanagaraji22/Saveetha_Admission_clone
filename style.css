@@ -1,8 +1,11 @@
+
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: url('picsaveetha.png') no-repeat center center/cover;
   height: 100vh;
+  overflow: hidden;
 }
 
 .container {
@@ -14,16 +17,18 @@ body {
 }
 
 .formcontainer {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.92);
   padding: 30px;
   width: 350px;
   border-radius: 10px;
+  max-height: 90vh;
+  overflow-y: auto;
 }
 
 h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: black;
+  color: #000;
 }
 
 form {
@@ -34,8 +39,8 @@ form {
 .inputbox {
   display: flex;
   align-items: center;
-  background: white;
-  border: 1px solid white;
+  background: #fff;
+  border: 1px solid #ccc;
   margin-bottom: 10px;
   padding: 8px 10px;
   border-radius: 5px;
@@ -43,7 +48,7 @@ form {
 
 .inputbox i {
   margin-right: 10px;
-  color: gray;
+  color: #555;
 }
 
 .inputbox input {
@@ -98,7 +103,7 @@ form {
 
 .terms {
   font-size: 12px;
-  color: black;
+  color: #000;
   margin: 10px 0;
 }
 
